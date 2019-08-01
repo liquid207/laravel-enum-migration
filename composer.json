@@ -1,0 +1,28 @@
+{
+    "name": "liquid207/laravel-enum-migration",
+    "description": "Macros for migrate enum column.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/liquid207/laravel-enum-migration",
+    "authors": [
+        {
+            "name": "Shuai Yang",
+            "email": "shuai.yang@aliyun.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "5.4.*|5.5.*|5.6.*|5.7.*|5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liquid207\\LaravelEnumMigration\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liquid207\\LaravelEnumMigration\\LaravelEnumMigrationProvider"
+            ]
+        }
+    }
+}
